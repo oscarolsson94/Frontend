@@ -1,0 +1,12 @@
+button {
+  display: inline-block;
+  margin-right: 20px;
+  padding: 5px 10px;
+  cursor: pointer; /* changes the mouse pointer to hand */
+}
+
+.clock {
+  margin-bottom: 12px;
+  font-family: Verdana;
+  font-size: 20px;
+}
