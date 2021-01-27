@@ -1,0 +1,21 @@
+[
+  {
+    "firstName": "Olle",
+    "lastName": "Persson",
+    "age": 25,
+    "hobbies": [
+      "Swimming",
+      "Football",
+      "Boxing"
+    ]
+  },
+  {
+    "firstName": "Anna",
+    "lastName": "Gabrielsson",
+    "age": 34,
+    "hobbies": [
+      "Karate",
+      "Drag racing"
+    ]
+  }
+]
