@@ -45,6 +45,31 @@ $(document).ready(function () { // Safe to have, not depending on where in the d
     $('.para1').toggle();
   });
 
+  $('#btn1').dblclick(function () { // Double click to hide/show
+    $('.para1').toggle();
+  });
+
+  $('#btn1').hover(function () { // Hover over element to toggle, combination of mouseenter and mouseleave
+    $('.para1').toggle();
+  });
+
+  $('#btn1').on('mousemove', function () { // Move mouse inside element to toggle show/hide
+    $('.para1').toggle();
+  });
+
+  $('#btn1').on('mousedown', function () { // Press down mouse inside element to toggle show/hide
+    $('.para1').toggle();
+  });
+
+  $('#btn1').on('mouseup', function () { // Combine with mousedown to hide when mousekey bressed and show when released
+    $('.para1').toggle();
+  });
+
+  
+
+
+
+
 
 
   });
