@@ -73,7 +73,20 @@ $(document).ready(function () { // Safe to have, not depending on where in the d
     $('h2').html('Coords: Y: ' + e.clientY + " X: " + e.clientX);
   });
 
-  
+  $('input').focus(function () { // When u click INSIDE an input field, change background color
+    //alert('Focus');
+    $(this).css('background', 'pink'); // 'this' means the current field you have in focus
+  });
+
+  $('input').blur(function () { // When u click OUTSIDE of an input field, change background color
+    //alert('Focus');
+    $(this).css('background', 'white'); // 'this' means the current field you have in focus
+  });
+
+  $('input').keyup(function (e) { // When a key is released inside a field, log the value of the key in console
+    console.log(e.target.value)
+  });
+
 
 
 
