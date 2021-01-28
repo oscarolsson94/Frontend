@@ -65,6 +65,14 @@ $(document).ready(function () { // Safe to have, not depending on where in the d
     $('.para1').toggle();
   });
 
+  $(document).on('mousemove', function (e) { // COOL Move mouse around and constantly print coordinates of mouse in console
+    console.log('Coords: Y: ' + e.clientY + " X: " + e.clientX);
+  });
+
+  $(document).on('mousemove', function (e) { // COOL Move mouse around and constantly change coordinates shown in element
+    $('h2').html('Coords: Y: ' + e.clientY + " X: " + e.clientX);
+  });
+
   
 
 
