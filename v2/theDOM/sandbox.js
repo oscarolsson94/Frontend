@@ -61,3 +61,11 @@
 // people.forEach(person => {
 //   content.innerHTML += `<p>${person}</p>`;
 // });
+
+// Get attribute of a tag and change it ---
+// const link = document.querySelector('a');
+// console.log(link.getAttribute('href'));
+
+// link.setAttribute('href', 'https//www.bing.com');
+// link.innerText = 'bing.com';
+// link.setAttribute('style', 'color: green'); //adds an attribute that didnt exist
