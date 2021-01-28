@@ -17,3 +17,9 @@ $(':button').hide(); // Using input types to grab
 $(':submit').hide();
 $(':text').hide();
 
+$('[href]').css('color', 'red'); // Using attribute to grab href
+
+$('a[href="http://yahoo.com"]').css('color', 'green'); // Using attribute VALUE to grab
+
+$('*').hide(); // target EVERYTHING
+
