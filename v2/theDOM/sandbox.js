@@ -68,4 +68,12 @@
 
 // link.setAttribute('href', 'https//www.bing.com');
 // link.innerText = 'bing.com';
-// link.setAttribute('style', 'color: green'); //adds an attribute that didnt exist
+
+// link.setAttribute('style', 'color: green'); 
+//adds an attribute that didnt exist but overwrites any other styling.
+
+// const title = document.querySelector('h1');
+// title.style.color = 'yellow';
+// title.style.fontSize = '60px'; //font-size = fontSize (camelCase)
+// only changes one element, does not overwrite
+
