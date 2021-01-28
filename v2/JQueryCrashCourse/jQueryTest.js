@@ -87,6 +87,18 @@ $(document).ready(function () { // Safe to have, not depending on where in the d
     console.log(e.target.value)
   });
 
+  $('select#gender').change(function(e){ // When the value in a select-menu changes, the value of the choice
+    alert(e.target.value);
+  });
+
+  $('#form').submit(function (e) { // When pressing a submit button, print the value of the name field
+    e.preventDefault(); // Prevent the standard behaviour, which is submitting the form
+    let name = $('inpute#name').val(); // Get the value from an input field
+    console.log(name);
+  });
+
+  // DOM MANIPULATION
+
 
 
 
