@@ -1,3 +1,5 @@
+// SELECTORS
+
 $('h1').hide(); // Hides element
 
 $('h1#heading1').hide(); // Using id to grab
@@ -23,3 +25,26 @@ $('a[href="http://yahoo.com"]').css('color', 'green'); // Using attribute VALUE 
 
 $('*').hide(); // target EVERYTHING
 
+// EVENTS
+
+$(document).ready(function () { // Safe to have, not depending on where in the document call is made
+  
+  $('#btn1').click(function() { // Send alert message when button clicked
+    alert('Button Clicked!');
+  });
+
+  $('#btn1').click(function() { // Hide <p> when button clicked
+    $('.para1').hide();
+  });
+
+  $('#btn2').click(function() { // Show <p> when button clicked
+    $('.para1').show();
+  });
+
+  $('#btn').click(function() { // Toggle between show and hide on button clicked
+    $('.para1').toggle();
+  });
+
+
+
+  });
