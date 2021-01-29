@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
 body, ul, li, h1, h2, a{
   margin: 0;
   padding: 0;
@@ -7,16 +9,13 @@ html{
   background-image: url('https://lh3.googleusercontent.com/proxy/lI7j3vFAY5hn80AAUHUPEtVtl4TKzscAXFzqieS0VWOuZYIvoTJUkj96QnkIWeB7jJL8fN9r29F6kX9xZ3f1czC9qu7viks');
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: 'Oswald', sans-serif;
   
 }
 body{
   width:100%; 
   position: relative;
   top: 100px;
-}
-
-main{
- 
 }
 
 .navigation{
