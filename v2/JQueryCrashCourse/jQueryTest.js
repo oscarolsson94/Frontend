@@ -153,6 +153,43 @@ $(document).ready(function () { // Safe to have, not depending on where in the d
   let newArr = $('ul li').toArray(); // Grab a list and put every <li>-element into an array
   console.log(newArr);
 
+// EFFECTS AND ANIMATIONS
+  
+  $('#btnFadeOut').click(function(){ // When a button is clicked, fade out the div
+    $('div').fadeOut(); // can take parameters 'fast', 'slow', '3000' (ms)
+  });
+
+  $('#btnFadeOut').click(function(){  // fadeOut can also take a callback-function as second parameter, this function decides what happens when fadeOut is done.
+    $('div').fadeOut(3000, function () {
+      $('btnFadeOut').text('Its Gone'); // change the text of the button after 3000ms
+    }); 
+  });
+
+  $('#btnFadeIn').click(function(){  // fadeIn fades the element in
+    $('div').fadeIn(3000); 
+  });
+
+  $('#btnFadeToggle').click(function(){  // fadeToggle fades the element in and out
+    $('div').fadeToggle(1000); 
+  });
+
+  $('#btnSlideDown').click(function(){  // slides the div down
+    $('div').slideDown(3000); 
+  });
+
+  $('#btnSlideUp').click(function(){  // slides the div up
+    $('div').slideUp(3000); 
+  });
+
+  $('#btnSlideToggle').click(function(){ // slides the div up and down
+    $('div').slideToggle(3000); 
+  });
+
+  $('btnStop').click(function () { // stops the div from sliding, can be done mid-slide
+    $('div').stop();
+  })
+
+
 
 
 
