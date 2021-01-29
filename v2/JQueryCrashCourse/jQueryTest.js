@@ -187,7 +187,24 @@ $(document).ready(function () { // Safe to have, not depending on where in the d
 
   $('btnStop').click(function () { // stops the div from sliding, can be done mid-slide
     $('div').stop();
-  })
+  });
+
+  $('#moveRight').click(function () { // move the box 500px away from the left
+    $('#box2').animate({ // the box needs to have position:relative as styling
+      left: 500
+    })
+  });
+
+  $('#moveLeft').click(function () { // move the box to its original position
+    $('#box2').animate({ // the box needs to have position:relative as styling
+      left: 0,
+      height: '300px',
+      width: '300px',
+      opacity: '0.5'
+    })
+  });
+
+  
 
 
 
