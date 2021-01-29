@@ -124,7 +124,42 @@ $(document).ready(function () { // Safe to have, not depending on where in the d
 
   $('ul').detach(); // removes the ul from the DOM
 
-  
+  $('a').attr('target', '_blank') // adds a target-attribute to the <a>-tag, opens a new window when link is clicked
+  alert($('a').attr('href')); // grab the value of an attribute
+
+  $('a').removeAttr('target'); // removes the specified attribute 'target' from the <a>-tag
+
+  $('p').wrap('<h1>'); // wraps every single p inside its own h1
+  $('p').wrapAll('<h1>'); // wraps every single p inside the same h1
+
+  $('#newItem').keyup(function (e) { // when you press enter when in a field, add the content of the field as a list item
+    let code = e.which; // code takes the unique button value
+    if (code == 13) { // 13 is the ENTER-key
+      e.preventDefault();
+      $('ul').append('<li>' + e.target.value + '</li>');
+    }
+  });
+
+  let myArr = ['Brad', 'Kelly', 'Nate', 'Jose'];
+
+  $.each(myArr, function (i, val) {  // Print every name in the array
+    console.log(val);
+  });
+
+  $.each(myArr, function (i, val) {  // Add every name in the array as an <li>-element in the ul-list
+    $('ul').append('<li>' + val + '</li>')
+  });
+
+  let newArr = $('ul li').toArray(); // Grab a list and put every <li>-element into an array
+  console.log(newArr);
+
+
+
+
+
+
+
+
 
 
 
