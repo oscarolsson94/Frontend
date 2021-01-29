@@ -4,19 +4,19 @@ body, ul, li, h1, h2, a{
 }
 html{
   background-color:black;
-  
-}
-body{
-  width:100%;
   background-image: url('https://lh3.googleusercontent.com/proxy/lI7j3vFAY5hn80AAUHUPEtVtl4TKzscAXFzqieS0VWOuZYIvoTJUkj96QnkIWeB7jJL8fN9r29F6kX9xZ3f1czC9qu7viks');
   background-repeat: no-repeat;
   background-size: cover;
   
 }
-
-main{
+body{
+  width:100%; 
   position: relative;
   top: 100px;
+}
+
+main{
+ 
 }
 
 .navigation{
@@ -100,10 +100,8 @@ h2{
 }
 
 footer{
-    position:relative;
-    top: 100px;
     width: 100%;
-    margin: 50px auto;
+    margin-top: 100px;
     display:inline-block;
     justify-content: center;
     align-items: center; 
@@ -116,11 +114,11 @@ footer div{
   color:white;
 }
 
-/* .form{
-  padding: 10px;
-} */
-
 form{
   padding: 10px;
+}
+
+form input{
+  margin: 10px;
 }
 
