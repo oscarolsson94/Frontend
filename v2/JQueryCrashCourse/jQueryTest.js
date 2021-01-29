@@ -222,6 +222,7 @@ $(document).ready(function () { // Safe to have, not depending on where in the d
     })
   });
 
+  // AJAX
 
 
 
