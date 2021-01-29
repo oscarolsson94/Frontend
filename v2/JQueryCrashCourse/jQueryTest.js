@@ -204,7 +204,23 @@ $(document).ready(function () { // Safe to have, not depending on where in the d
     })
   });
 
-  
+  $('#btnMoveAround').click(function () { // Moves an element around in a square when button is clicked
+    let box = $('div');
+    box.animate({
+      left: 300
+    })
+    box.animate({
+      top: 300
+    })
+    box.animate({
+      left: 0,
+      top: 300
+    })
+    box.animate({
+      left: 0,
+      top: 0
+    })
+  });
 
 
 
