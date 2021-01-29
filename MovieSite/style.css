@@ -5,17 +5,23 @@ body{
 .navigation{
   margin:0;
 }
+
+ul.navigation{
+  display: flex;
+  align-items: center;
+}
+
 .navigation li{
-position: relative;
-display: inline-block;
+display: block;
 padding: 20px;
 color: white;
+margin:0;
 }
 .navigation li img{
 width: 40px;
 height: 40px;
-}
 
+}
 header{
   position: fixed;
   width: 100%;
@@ -26,9 +32,14 @@ header{
 
 .login{
   position: absolute;
-  margin: 20px auto;  
+  /* margin: 20px auto;   */
   right: 20px;
   color: white;
+}
+
+.login a{
+  color:white;
+  text-decoration: none;
 }
 
 .navigation{}
