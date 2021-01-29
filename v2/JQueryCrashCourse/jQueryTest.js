@@ -97,6 +97,12 @@ $(document).ready(function () { // Safe to have, not depending on where in the d
     console.log(name);
   });
 
+  $('p.para1').css({ color: 'red', margin: '2px', background: '#ccc' }) // Change multiple attributes in DOM by throwing in object
+  
+  $('p.para2').addClass('myClass'); // Add a class to an existing element
+  
+  $('p.para2').removeClass('myClass'); // Remove a class to an existing element
+
   // DOM MANIPULATION
 
 
