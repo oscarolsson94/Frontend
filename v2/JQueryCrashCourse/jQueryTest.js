@@ -112,9 +112,19 @@ $(document).ready(function () { // Safe to have, not depending on where in the d
   $('#myDiv').html('<h3>Hello World</h3>'); // Set the content of a div to an h3
   alert($('myDiv').text()); // Get the value of the text
 
-  $('ul').append('<li>Append List Item</li>'); // Add an item first in the list
+  $('ul').append('<li>Append List Item</li>'); // Add an item first inside the list
 
-  $('ul').prepend('<li>Append List Item</li>'); // Add an item last in the list
+  $('ul').prepend('<li>Append List Item</li>'); // Add an item last inside the list
+
+  $('ul').before('<h4>Hello</h4>'); // Add something BEFORE an element
+
+  $('ul').after('<h4>World</h4>'); // Add something AFTER an element
+
+  $('ul').empty(); // the ul still remains, but the inner elements are gone
+
+  $('ul').detach(); // removes the ul from the DOM
+
+  
 
 
 
