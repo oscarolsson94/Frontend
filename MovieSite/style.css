@@ -1,6 +1,6 @@
 body{
   margin: 0;
-  display: flex;
+  width:100%;
 }
 
 .navigation{
@@ -43,4 +43,12 @@ header{
   text-decoration: none;
 }
 
-.navigation{}
+.movies{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.movies div{
+  padding: 10px;
+}
