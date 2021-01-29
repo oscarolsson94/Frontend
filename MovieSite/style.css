@@ -12,6 +12,12 @@ body{
   background-image: url('https://lh3.googleusercontent.com/proxy/lI7j3vFAY5hn80AAUHUPEtVtl4TKzscAXFzqieS0VWOuZYIvoTJUkj96QnkIWeB7jJL8fN9r29F6kX9xZ3f1czC9qu7viks');
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+}
+
+main{
+  position: relative;
+  top: 100px;
 }
 
 .navigation{
@@ -62,7 +68,7 @@ header{
 }
 
 .movies div{
-  padding: 10px;
+  padding: 12px;
   color:white;
 }
 
@@ -86,8 +92,8 @@ h2{
 
 .divh1{
   width: 100%;
+  margin-top: 10px;
   position: relative;
-  /* top: 100px; */
   text-align: center;
   color: white;
 }
