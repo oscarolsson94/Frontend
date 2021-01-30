@@ -1,6 +1,7 @@
-[
+
 
   {
+    "image": "https://catalog.cinema-api.com/cf/images/ncg-images/af43a0ff2f91418aa4eec5428d16fc3e.jpg?width=240&version=91366B855670F94E48E7BFFB7EA1CE27&format=webp",
 
     "title": "After we collided",
 
@@ -28,56 +29,8 @@
 
     ],
 
-    "description": "<p>Hardin Scott och Tessa Young går igenom efterdyningarna av deras uppbrott. Medan Hardin faller in i dåliga vanor är Tessa fylld av nytt självförtroende och landar sina drömmars praktikplats på förlaget Vance. På sin nya arbetsplats uppmärksammar hon sin stiliga nya medarbetare Trevor, som är exakt den typ av kille som hon borde vara med. Han är smart, rolig, stilig och ansvarsfull, men Tessa kan inte få Hardin ur huvudet. Han är ju ändå hennes livs kärlek. Trots alla deras missförstånd och svårigheter kan Tessa inte förneka dragningskraften hon har till Hardin. Hon önskar att hon kunde hålla sig borta... det är bara inte så lätt. Genom alla med- och motgångar kommer Hardin och Tessa att kämpa för att vara tillsammans ... även om universum vill att de ska vara isär.</p>",
+    "description": "Hardin Scott och Tessa Young går igenom efterdyningarna av deras uppbrott. Medan Hardin faller in i dåliga vanor är Tessa fylld av nytt självförtroende och landar sina drömmars praktikplats på förlaget Vance. På sin nya arbetsplats uppmärksammar hon sin stiliga nya medarbetare Trevor, som är exakt den typ av kille som hon borde vara med. Han är smart, rolig, stilig och ansvarsfull, men Tessa kan inte få Hardin ur huvudet. Han är ju ändå hennes livs kärlek. Trots alla deras missförstånd och svårigheter kan Tessa inte förneka dragningskraften hon har till Hardin. Hon önskar att hon kunde hålla sig borta... det är bara inte så lätt. Genom alla med- och motgångar kommer Hardin och Tessa att kämpa för att vara tillsammans ... även om universum vill att de ska vara isär."
 
-    "images": [
-
-       "call-me-poster1.jpg",
-
-       "call-me-poster2.jpg"
-
-    ],
-
-    "reviews": [
-
-      {
-
-        "source": "Sydsvenskan",
-
-        "quote": "ett drama berättat med stor ömhet",
-
-        "stars": 4,
-
-        "max": 5
-
-      },
-
-      {
-
-        "source": "Svenska Dagbladet",
-
-        "quote": "en film att förälska sig i",
-
-        "stars": 5,
-
-        "max": 5
-
-      },
-
-      {
-
-        "source": "DN",
-
-        "quote": "en het romans i åttiotalskostym",
-
-        "stars": 4,
-
-        "max": 5
-
-      }
-
-    ]
 
   }
 
-]
