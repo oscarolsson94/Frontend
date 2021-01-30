@@ -1,2 +1,7 @@
-let jsonObj = $.getJSON('movies.json');
-console.log(jsonObj);
+fetch("./movies.json")
+.then(response => {
+   return response.json();
+})
+  .then(data => console.log(data));
+
+  
