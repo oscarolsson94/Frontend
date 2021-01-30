@@ -18,6 +18,11 @@ body{
   top: 100px;
 }
 
+a{
+  text-decoration: none;
+  color:white;
+}
+
 .navigation{
   margin:0;
 }
