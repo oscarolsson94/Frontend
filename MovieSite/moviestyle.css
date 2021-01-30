@@ -1,0 +1,86 @@
+body, ul, li, h1, h2, a{
+  margin: 0;
+  padding: 0;
+}
+html{
+  background-color:rgb(165, 20, 20);
+  /* background-image: url('https://lh3.googleusercontent.com/proxy/lI7j3vFAY5hn80AAUHUPEtVtl4TKzscAXFzqieS0VWOuZYIvoTJUkj96QnkIWeB7jJL8fN9r29F6kX9xZ3f1czC9qu7viks'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Oswald', sans-serif;
+  
+}
+body{
+  width:100%; 
+  position: relative;
+  top: 100px;
+}
+
+a{
+  text-decoration: none;
+  color:white;
+}
+
+.navigation{
+  margin:0;
+}
+
+ul.navigation{
+  display: flex;
+  align-items: center;
+}
+
+.navigation li{
+display: block;
+padding: 20px;
+color: white;
+margin:0;
+}
+.navigation li img{
+width: 40px;
+height: 40px;
+
+}
+header{
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+  width: 100%;
+  margin: 0;
+  background-color: rgb(0, 0, 0);
+  
+}
+
+.login{
+  position: absolute;
+  right: 20px;
+  color: white;
+}
+
+.login a{
+  color:white;
+  text-decoration: none;
+}
+
+footer{
+    width: 100%;
+    margin-top: 100px;
+    display:inline-block;
+    justify-content: center;
+    align-items: center; 
+    background-color:rgb(0, 0, 0);
+    padding: 10px;
+}
+
+footer div{
+  text-align: center;
+  color:white;
+}
+
+form{
+  padding: 10px;
+}
+
+form input{
+  margin: 10px;
+}
