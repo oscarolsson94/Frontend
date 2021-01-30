@@ -1,7 +1,7 @@
 $(document).ready(function() {
                   
   $.getJSON('movies.json', function(json) {
-    $('main').html('<div class= "movieimage"> <img src="' + json.movies.afterWeCollide.image + '" alt=""></div>');
+    $('main').html('<div class= "trailer">' + json.movies.afterWeCollide.trailer + '</div>');
     $('main').append('<p> Title: ' + json.movies.afterWeCollide.title + '</p>');
     $('main').append('<p> Production year : ' + json.movies.afterWeCollide.productionYear + '</p>');
     $('main').append('<p> Length: ' + json.movies.afterWeCollide.length + '</p>');

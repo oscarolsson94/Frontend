@@ -2,8 +2,8 @@
 "movies": {
 
   "afterWeCollide": {
-    
-    "image": "https://catalog.cinema-api.com/cf/images/ncg-images/af43a0ff2f91418aa4eec5428d16fc3e.jpg?width=240&version=91366B855670F94E48E7BFFB7EA1CE27&format=webp",
+
+    "trailer": "<iframe width='1000' height='570' src='https://www.youtube.com/embed/2SvwX3ux_-8' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
 
     "title": "After we collided",
 
@@ -37,7 +37,7 @@
   },
 
   "alfonsLekerEinstein": {
-    "image": "https://catalog.cinema-api.com/cf/images/ncg-images/af43a0ff2f91418aa4eec5428d16fc3e.jpg?width=240&version=91366B855670F94E48E7BFFB7EA1CE27&format=webp",
+    "trailer": "<iframe width='1000' height='570' src='https://www.youtube.com/embed/2SvwX3ux_-8' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
 
     "title": "After we collided",
 
@@ -70,6 +70,107 @@
 
   }
 
+  "alfonsLekerEinstein": {
+    "trailer": "<iframe width='1000' height='570' src='https://www.youtube.com/embed/2SvwX3ux_-8' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+
+    "title": "After we collided",
+
+    "productionYear": 2020,
+
+    "length": 132,
+
+    "genre": "Romantik, Drama",
+
+    "distributor": "UIP",
+
+    "language": "engelska",
+
+    "subtitles": "svenska",
+
+    "director": "Roger Kumble",
+
+    "actors": [
+
+      "Josephine Langford",
+
+      "Hero Fiennes Tiffin",
+
+      "Dylan Sprouse"
+
+    ],
+
+    "description": "Hardin Scott och Tessa Young går igenom efterdyningarna av deras uppbrott. Medan Hardin faller in i dåliga vanor är Tessa fylld av nytt självförtroende och landar sina drömmars praktikplats på förlaget Vance. På sin nya arbetsplats uppmärksammar hon sin stiliga nya medarbetare Trevor, som är exakt den typ av kille som hon borde vara med. Han är smart, rolig, stilig och ansvarsfull, men Tessa kan inte få Hardin ur huvudet. Han är ju ändå hennes livs kärlek. Trots alla deras missförstånd och svårigheter kan Tessa inte förneka dragningskraften hon har till Hardin. Hon önskar att hon kunde hålla sig borta... det är bara inte så lätt. Genom alla med- och motgångar kommer Hardin och Tessa att kämpa för att vara tillsammans ... även om universum vill att de ska vara isär."
+
+
+  }
+
+  "alfonsLekerEinstein": {
+    "trailer": "<iframe width='1000' height='570' src='https://www.youtube.com/embed/2SvwX3ux_-8' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+
+    "title": "After we collided",
+
+    "productionYear": 2020,
+
+    "length": 132,
+
+    "genre": "Romantik, Drama",
+
+    "distributor": "UIP",
+
+    "language": "engelska",
+
+    "subtitles": "svenska",
+
+    "director": "Roger Kumble",
+
+    "actors": [
+
+      "Josephine Langford",
+
+      "Hero Fiennes Tiffin",
+
+      "Dylan Sprouse"
+
+    ],
+
+    "description": "Hardin Scott och Tessa Young går igenom efterdyningarna av deras uppbrott. Medan Hardin faller in i dåliga vanor är Tessa fylld av nytt självförtroende och landar sina drömmars praktikplats på förlaget Vance. På sin nya arbetsplats uppmärksammar hon sin stiliga nya medarbetare Trevor, som är exakt den typ av kille som hon borde vara med. Han är smart, rolig, stilig och ansvarsfull, men Tessa kan inte få Hardin ur huvudet. Han är ju ändå hennes livs kärlek. Trots alla deras missförstånd och svårigheter kan Tessa inte förneka dragningskraften hon har till Hardin. Hon önskar att hon kunde hålla sig borta... det är bara inte så lätt. Genom alla med- och motgångar kommer Hardin och Tessa att kämpa för att vara tillsammans ... även om universum vill att de ska vara isär."
+
+
+  }
+
+  "alfonsLekerEinstein": {
+    "trailer": "<iframe width='1000' height='570' src='https://www.youtube.com/embed/2SvwX3ux_-8' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+
+    "title": "After we collided",
+
+    "productionYear": 2020,
+
+    "length": 132,
+
+    "genre": "Romantik, Drama",
+
+    "distributor": "UIP",
+
+    "language": "engelska",
+
+    "subtitles": "svenska",
+
+    "director": "Roger Kumble",
+
+    "actors": [
+
+      "Josephine Langford",
+
+      "Hero Fiennes Tiffin",
+
+      "Dylan Sprouse"
+
+    ],
+
+    "description": "Hardin Scott och Tessa Young går igenom efterdyningarna av deras uppbrott. Medan Hardin faller in i dåliga vanor är Tessa fylld av nytt självförtroende och landar sina drömmars praktikplats på förlaget Vance. På sin nya arbetsplats uppmärksammar hon sin stiliga nya medarbetare Trevor, som är exakt den typ av kille som hon borde vara med. Han är smart, rolig, stilig och ansvarsfull, men Tessa kan inte få Hardin ur huvudet. Han är ju ändå hennes livs kärlek. Trots alla deras missförstånd och svårigheter kan Tessa inte förneka dragningskraften hon har till Hardin. Hon önskar att hon kunde hålla sig borta... det är bara inte så lätt. Genom alla med- och motgångar kommer Hardin och Tessa att kämpa för att vara tillsammans ... även om universum vill att de ska vara isär."
+
+
+  }
 
 }
 }
