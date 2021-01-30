@@ -1,6 +1,5 @@
 $(document).ready(function() {
-           
-  let afterWeCollied = '"afterWeCollid"';         
+                  
   $.getJSON('movies.json', function(json) {
     $('main').html('<div class= "movieimage"> <img src="' + json.movies.afterWeCollide.image + '" alt=""></div>');
     $('main').append('<p> Title: ' + json.movies.afterWeCollide.title + '</p>');
