@@ -1,7 +1,9 @@
 {
-  
-{
+  "showings": {
 
+    "afterWeCollided": 
+    [
+    {
     "auditorium": "Stora Salongen",
 
     "film": "After we collided",
@@ -10,8 +12,8 @@
 
     "time": "17.30"
 
-},
-{
+    },
+    {
 
     "auditorium": "Stora Salongen",
 
@@ -21,8 +23,8 @@
 
     "time": "19.30"
 
-},
-{
+    },
+    {
 
     "auditorium": "Stora Salongen",
 
@@ -32,8 +34,8 @@
 
     "time": "21.30"
 
-},
-{
+    },
+    {
 
     "auditorium": "Stora Salongen",
 
@@ -43,8 +45,8 @@
 
     "time": "17.30"
 
-},
-{
+    },
+    {
 
     "auditorium": "Stora Salongen",
 
@@ -54,8 +56,8 @@
 
     "time": "19.30"
 
-},
-{
+    },
+    {
 
     "auditorium": "Stora Salongen",
 
@@ -65,107 +67,275 @@
 
     "time": "21.30"
 
-},
-{
+    },
+    {
 
     "auditorium": "Stora Salongen",
 
     "film": "After we collided",
 
-    "date": "2021-01-22",
+    "date": "2021-03-01",
 
-    "time": "21.40"
+    "time": "17.30"
 
-},
-{
-
-    "auditorium": "Stora Salongen",
-
-    "film": "After we collided",
-
-    "date": "2021-01-22",
-
-    "time": "21.40"
-
-},
-{
+    },
+    {
 
     "auditorium": "Stora Salongen",
 
     "film": "After we collided",
 
-    "date": "2021-01-22",
+    "date": "2021-03-01",
 
-    "time": "21.40"
+    "time": "19.30"
 
-},
-{
-
-    "auditorium": "Stora Salongen",
-
-    "film": "After we collided",
-
-    "date": "2021-01-22",
-
-    "time": "21.40"
-
-},
-{
+    },
+    {
 
     "auditorium": "Stora Salongen",
 
     "film": "After we collided",
 
-    "date": "2021-01-22",
+    "date": "2021-03-01",
 
-    "time": "21.40"
+    "time": "21.30"
 
-},
-{
-
-    "auditorium": "Stora Salongen",
-
-    "film": "After we collided",
-
-    "date": "2021-01-22",
-
-    "time": "21.40"
-
-},
-{
+    },
+    {
 
     "auditorium": "Stora Salongen",
 
     "film": "After we collided",
 
-    "date": "2021-01-22",
+    "date": "2021-03-05",
 
-    "time": "21.40"
+    "time": "17.30"
 
-},
-{
-
-    "auditorium": "Stora Salongen",
-
-    "film": "After we collided",
-
-    "date": "2021-01-22",
-
-    "time": "21.40"
-
-},
-{
+    },
+    {
 
     "auditorium": "Stora Salongen",
 
     "film": "After we collided",
 
-    "date": "2021-01-22",
+    "date": "2021-03-05",
 
-    "time": "21.40"
+    "time": "19.30"
 
-},
+    },
+    {
 
+    "auditorium": "Stora Salongen",
+
+    "film": "After we collided",
+
+    "date": "2021-03-05",
+
+    "time": "21.30"
+
+    },
+    {
+
+    "auditorium": "Stora Salongen",
+
+    "film": "After we collided",
+
+    "date": "2021-03-09",
+
+    "time": "17.30"
+
+    },
+    {
+
+    "auditorium": "Stora Salongen",
+
+    "film": "After we collided",
+
+    "date": "2021-03-09",
+
+    "time": "19.30"
+
+    },
+    {
+
+    "auditorium": "Stora Salongen",
+
+    "film": "After we collided",
+
+    "date": "2021-03-09",
+
+    "time": "21.30"
+
+    }
+    ],
+    "alfonsLekerEinstein": 
+    [
+    {
+    "auditorium": "Stora Salongen",
+
+    "film": "After we collided",
+
+    "date": "2021-02-22",
+
+    "time": "17.30"
+
+    },
+    {
+
+    "auditorium": "Stora Salongen",
+
+    "film": "After we collided",
+
+    "date": "2021-02-22",
+
+    "time": "19.30"
+
+    },
+    {
+
+    "auditorium": "Stora Salongen",
+
+    "film": "After we collided",
+
+    "date": "2021-02-22",
+
+    "time": "21.30"
+
+    },
+    {
+
+    "auditorium": "Stora Salongen",
+
+    "film": "After we collided",
+
+    "date": "2021-02-27",
+
+    "time": "17.30"
+
+    },
+    {
+
+    "auditorium": "Stora Salongen",
+
+    "film": "After we collided",
+
+    "date": "2021-02-27",
+
+    "time": "19.30"
+
+    },
+    {
+
+    "auditorium": "Stora Salongen",
+
+    "film": "After we collided",
+
+    "date": "2021-02-27",
+
+    "time": "21.30"
+
+    },
+    {
+
+    "auditorium": "Stora Salongen",
+
+    "film": "After we collided",
+
+    "date": "2021-03-01",
+
+    "time": "17.30"
+
+    },
+    {
+
+    "auditorium": "Stora Salongen",
+
+    "film": "After we collided",
+
+    "date": "2021-03-01",
+
+    "time": "19.30"
+
+    },
+    {
+
+    "auditorium": "Stora Salongen",
+
+    "film": "After we collided",
+
+    "date": "2021-03-01",
+
+    "time": "21.30"
+
+    },
+    {
+
+    "auditorium": "Stora Salongen",
+
+    "film": "After we collided",
+
+    "date": "2021-03-05",
+
+    "time": "17.30"
+
+    },
+    {
+
+    "auditorium": "Stora Salongen",
+
+    "film": "After we collided",
+
+    "date": "2021-03-05",
+
+    "time": "19.30"
+
+    },
+    {
+
+    "auditorium": "Stora Salongen",
+
+    "film": "After we collided",
+
+    "date": "2021-03-05",
+
+    "time": "21.30"
+
+    },
+    {
+
+    "auditorium": "Stora Salongen",
+
+    "film": "After we collided",
+
+    "date": "2021-03-09",
+
+    "time": "17.30"
+
+    },
+    {
+
+    "auditorium": "Stora Salongen",
+
+    "film": "After we collided",
+
+    "date": "2021-03-09",
+
+    "time": "19.30"
+
+    },
+    {
+
+    "auditorium": "Stora Salongen",
+
+    "film": "After we collided",
+
+    "date": "2021-03-09",
+
+    "time": "21.30"
+
+    }
+    ]
+}
 }
 
 
