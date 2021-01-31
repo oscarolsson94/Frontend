@@ -13,4 +13,17 @@ $(document).ready(function() {
     $('main').append('<p> Actors: ' + json.movies.afterWeCollide.actors + '</p>');
     $('main').append('<p> Description: ' + json.movies.afterWeCollide.description + '</p>');
     });
+});
+  
+$(document).ready(function() {
+                  
+  $.getJSON('showings.json', function (json) {
+    let arr = json.showings.afterWeCollided;
+
+    arr.forEach(obj => {
+      $('main').html('<div class= "showings">' + obj.date + " " + obj.time + '</div>');
+    });
+    
+    });
   });
+
