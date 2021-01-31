@@ -3,7 +3,7 @@ $(document).ready(function() {
   $.getJSON('showings.json', function (json) {
     $('.choose').click(function() { 
     var x = document.getElementById("movies").value;
-      var arr;
+    var arr;
   switch (x) {
     case "afterWeCollided":
       arr = json.showings.afterWeCollided;
