@@ -12,18 +12,19 @@ $(document).ready(function() {
     $('main').append('<p> Director: ' + json.movies.afterWeCollide.director + '</p>');
     $('main').append('<p> Actors: ' + json.movies.afterWeCollide.actors + '</p>');
     $('main').append('<p> Description: ' + json.movies.afterWeCollide.description + '</p>');
-    });
-});
-  
-$(document).ready(function() {
-                  
-  $.getJSON('showings.json', function (json) {
-    let arr = json.showings.afterWeCollided;
+  });
+
+  $.getJSON('showings.json', function (json2) {
+    let arr = json2.showings.afterWeCollided;
+
+    $('main').append('<h2 class= "showings">Visningar:</h2>');
 
     arr.forEach(obj => {
-      $('main').html('<div class= "showings">' + obj.date + " " + obj.time + '</div>');
+      $('main').append('<div class= "showings">' + obj.date + " " + obj.time + '</div>');
     });
     
     });
-  });
+  
+});
+  
 
