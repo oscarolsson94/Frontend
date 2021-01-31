@@ -12,5 +12,16 @@ $(document).ready(function() {
     $('main').append('<p> Director: ' + json.movies.alfonsLekerEinstein.director + '</p>');
     $('main').append('<p> Actors: ' + json.movies.alfonsLekerEinstein.actors + '</p>');
     $('main').append('<p> Description: ' + json.movies.alfonsLekerEinstein.description + '</p>');
+  });
+  
+  $.getJSON('showings.json', function (json2) {
+    let arr = json2.showings.alfonsLekerEinstein;
+
+    $('main').append('<h2 class= "showings">Visningar:</h2>');
+
+    arr.forEach(obj => {
+      $('main').append('<div class= "showings">' + obj.date + " " + obj.time + '</div>');
+    });
+    
     });
   });
