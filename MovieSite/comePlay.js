@@ -20,7 +20,7 @@ $(document).ready(function() {
     $('.div2').append('<h2 class= "showings">Visningar:</h2>');
 
     arr.forEach(obj => {
-      $('.div2').append('<div class= "showings">' + obj.date + " " + obj.time + '</div>');
+      $('.div2').append('<div class= "showings">' + obj.date + " " + obj.time + " " + obj.auditorium + '</div>');
     });
     
     });
