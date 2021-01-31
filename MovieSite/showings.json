@@ -173,42 +173,9 @@
     {
     "auditorium": "Lilla salongen",
 
-    "film": "After we collided",
+    "film": "Alfons leker Einstein",
 
-    "date": "2021-02-22",
-
-    "time": "17.30"
-
-    },
-    {
-
-    "auditorium": "Lilla salongen",
-
-    "film": "After we collided",
-
-    "date": "2021-02-22",
-
-    "time": "19.30"
-
-    },
-    {
-
-    "auditorium": "Lilla salongen",
-
-    "film": "After we collided",
-
-    "date": "2021-02-22",
-
-    "time": "21.30"
-
-    },
-    {
-
-    "auditorium": "Lilla salongen",
-
-    "film": "After we collided",
-
-    "date": "2021-02-27",
+    "date": "2021-02-24",
 
     "time": "17.30"
 
@@ -217,9 +184,9 @@
 
     "auditorium": "Lilla salongen",
 
-    "film": "After we collided",
+    "film": "Alfons leker Einstein",
 
-    "date": "2021-02-27",
+    "date": "2021-02-24",
 
     "time": "19.30"
 
@@ -228,9 +195,9 @@
 
     "auditorium": "Lilla salongen",
 
-    "film": "After we collided",
+    "film": "Alfons leker Einstein",
 
-    "date": "2021-02-27",
+    "date": "2021-02-24",
 
     "time": "21.30"
 
@@ -239,9 +206,9 @@
 
     "auditorium": "Lilla salongen",
 
-    "film": "After we collided",
+    "film": "Alfons leker Einstein",
 
-    "date": "2021-03-01",
+    "date": "2021-03-02",
 
     "time": "17.30"
 
@@ -250,42 +217,9 @@
 
     "auditorium": "Lilla salongen",
 
-    "film": "After we collided",
+    "film": "Alfons leker Einstein",
 
-    "date": "2021-03-01",
-
-    "time": "19.30"
-
-    },
-    {
-
-    "auditorium": "Lilla salongen",
-
-    "film": "After we collided",
-
-    "date": "2021-03-01",
-
-    "time": "21.30"
-
-    },
-    {
-
-    "auditorium": "Lilla salongen",
-
-    "film": "After we collided",
-
-    "date": "2021-03-05",
-
-    "time": "17.30"
-
-    },
-    {
-
-    "auditorium": "Lilla salongen",
-
-    "film": "After we collided",
-
-    "date": "2021-03-05",
+    "date": "2021-03-02",
 
     "time": "19.30"
 
@@ -294,9 +228,9 @@
 
     "auditorium": "Lilla salongen",
 
-    "film": "After we collided",
+    "film": "Alfons leker Einstein",
 
-    "date": "2021-03-05",
+    "date": "2021-03-02",
 
     "time": "21.30"
 
@@ -305,7 +239,7 @@
 
     "auditorium": "Lilla salongen",
 
-    "film": "Lilla salongen",
+    "film": "Alfons leker Einstein",
 
     "date": "2021-03-09",
 
@@ -316,7 +250,7 @@
 
     "auditorium": "Lilla salongen",
 
-    "film": "After we collided",
+    "film": "Alfons leker Einstein",
 
     "date": "2021-03-09",
 
@@ -327,9 +261,75 @@
 
     "auditorium": "Lilla salongen",
 
-    "film": "After we collided",
+    "film": "Alfons leker Einstein",
 
     "date": "2021-03-09",
+
+    "time": "21.30"
+
+    },
+    {
+
+    "auditorium": "Lilla salongen",
+
+    "film": "Alfons leker Einstein",
+
+    "date": "2021-03-16",
+
+    "time": "17.30"
+
+    },
+    {
+
+    "auditorium": "Lilla salongen",
+
+    "film": "Alfons leker Einstein",
+
+    "date": "2021-03-16",
+
+    "time": "19.30"
+
+    },
+    {
+
+    "auditorium": "Lilla salongen",
+
+    "film": "Alfons leker Einstein",
+
+    "date": "2021-03-16",
+
+    "time": "21.30"
+
+    },
+    {
+
+    "auditorium": "Lilla salongen",
+
+    "film": "Alfons leker Einstein",
+
+    "date": "2021-03-23",
+
+    "time": "17.30"
+
+    },
+    {
+
+    "auditorium": "Lilla salongen",
+
+    "film": "Alfons leker Einstein",
+
+    "date": "2021-03-23",
+
+    "time": "19.30"
+
+    },
+    {
+
+    "auditorium": "Lilla salongen",
+
+    "film": "Alfons leker Einstein",
+
+    "date": "2021-03-23",
 
     "time": "21.30"
 
