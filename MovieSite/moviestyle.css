@@ -16,6 +16,15 @@ body{
   top: 100px;
 }
 
+main{
+  color:white;
+  margin-left: 20px;
+}
+
+main p{
+  width: 50%;
+}
+
 a{
   text-decoration: none;
   color:white;
