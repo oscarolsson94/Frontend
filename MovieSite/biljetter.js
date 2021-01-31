@@ -22,10 +22,10 @@ $(document).ready(function() {
       break;  
   }
 
-    $('main').append('<h2 class= "showings">Visningar:</h2>');
+    $('.showings').html('<h2>Visningar:</h2>');
 
     arr.forEach(obj => {
-      $('main').append('<div class= "showings">' + obj.date + " " + obj.time + " " + obj.auditorium + '</div>');
+      $('.showings').append('<div class= "showings">' + obj.date + " " + obj.time + " " + obj.auditorium + '</div>');
     });
   });
     
