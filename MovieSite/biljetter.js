@@ -1,31 +1,31 @@
 $(document).ready(function() {
   
-  $.getJSON('showings.json', function (json2) {
+  $.getJSON('showings.json', function (json) {
     $('.choose').click(function() { 
     var x = document.getElementById("movies").value;
-    
+      var arr;
   switch (x) {
     case "afterWeCollided":
-      var arr = json2.showings.afterWeCollided;
+      arr = json.showings.afterWeCollided;
       break;
     case "alfonsLekerEinstein":
-      var arr = alfonsLekerEinstein;
+      arr = json.showings.alfonsLekerEinstein;
       break;
     case "andraSidan":
-      var arr = json2.showings.andraSidan;
+      arr = json.showings.andraSidan;
       break;
     case "bertsDagbok":
-      var arr = json2.showings.bertsDagbok;
+      arr = json.showings.bertsDagbok;
       break;
     case "comePlay":
-      var arr = json2.showings.comePlay;
+      arr = json.showings.comePlay;
       break;  
   }
 
-    $('.showings').html('<h2>Visningar:</h2>');
+    $('.shows').html('<h2>Visningar:</h2>');
 
     arr.forEach(obj => {
-      $('.showings').append('<div class= "showings">' + obj.date + " " + obj.time + " " + obj.auditorium + '</div>');
+      $('.shows').append('<div class= "showings">' + obj.date + " " + obj.time + " " + obj.auditorium + '</div>');
     });
   });
     
