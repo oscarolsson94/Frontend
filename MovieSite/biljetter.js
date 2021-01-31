@@ -2,9 +2,9 @@ $(document).ready(function() {
   
   $.getJSON('showings.json', function (json) {
     $('.choose').click(function() { 
-    var x = document.getElementById("movies").value;
-    var arr;
-  switch (x) {
+      var menuValue = document.getElementById("movies").value;
+      var arr;
+  switch (menuValue) {
     case "afterWeCollided":
       arr = json.showings.afterWeCollided;
       break;
@@ -22,7 +22,7 @@ $(document).ready(function() {
       break;  
   }
 
-    $('.shows').html('<h2>Visningar:</h2>');
+    $('.shows').html('<h2>' + arr[0].film + ' visas följande tider:' + '</h2>');
 
     arr.forEach(obj => {
       $('.shows').append('<div class= "showings">' + obj.date + " " + obj.time + " " + obj.auditorium + '</div>');
