@@ -1,26 +1,26 @@
 $(document).ready(function() {
                   
   $.getJSON('movies.json', function(json) {
-    $('main').html('<div class= "trailer">' + json.movies.alfonsLekerEinstein.trailer + '</div>');
-    $('main').append('<p> Title: ' + json.movies.alfonsLekerEinstein.title + '</p>');
-    $('main').append('<p> Production year : ' + json.movies.alfonsLekerEinstein.productionYear + '</p>');
-    $('main').append('<p> Length: ' + json.movies.alfonsLekerEinstein.length + '</p>');
-    $('main').append('<p> Genre: ' + json.movies.alfonsLekerEinstein.genre + '</p>');
-    $('main').append('<p> Distributor: ' + json.movies.alfonsLekerEinstein.distributor + '</p>');
-    $('main').append('<p> Language: ' + json.movies.alfonsLekerEinstein.language + '</p>');
-    $('main').append('<p> Subtitles: ' + json.movies.alfonsLekerEinstein.subtitles + '</p>');
-    $('main').append('<p> Director: ' + json.movies.alfonsLekerEinstein.director + '</p>');
-    $('main').append('<p> Actors: ' + json.movies.alfonsLekerEinstein.actors + '</p>');
-    $('main').append('<p> Description: ' + json.movies.alfonsLekerEinstein.description + '</p>');
+    $('.div1').html('<div class= "trailer">' + json.movies.alfonsLekerEinstein.trailer + '</div>');
+    $('.div1').append('<p> Title: ' + json.movies.alfonsLekerEinstein.title + '</p>');
+    $('.div1').append('<p> Production year : ' + json.movies.alfonsLekerEinstein.productionYear + '</p>');
+    $('.div1').append('<p> Length: ' + json.movies.alfonsLekerEinstein.length + '</p>');
+    $('.div1').append('<p> Genre: ' + json.movies.alfonsLekerEinstein.genre + '</p>');
+    $('.div1').append('<p> Distributor: ' + json.movies.alfonsLekerEinstein.distributor + '</p>');
+    $('.div1').append('<p> Language: ' + json.movies.alfonsLekerEinstein.language + '</p>');
+    $('.div1').append('<p> Subtitles: ' + json.movies.alfonsLekerEinstein.subtitles + '</p>');
+    $('.div1').append('<p> Director: ' + json.movies.alfonsLekerEinstein.director + '</p>');
+    $('.div1').append('<p> Actors: ' + json.movies.alfonsLekerEinstein.actors + '</p>');
+    $('.div1').append('<p> Description: ' + json.movies.alfonsLekerEinstein.description + '</p>');
   });
   
   $.getJSON('showings.json', function (json2) {
     let arr = json2.showings.alfonsLekerEinstein;
 
-    $('main').append('<h2 class= "showings">Visningar:</h2>');
+    $('.div2').append('<h2 class= "showings">Visningar:</h2>');
 
     arr.forEach(obj => {
-      $('main').append('<div class= "showings">' + obj.date + " " + obj.time + '</div>');
+      $('.div2').append('<div class= "showings">' + obj.date + " " + obj.time + '</div>');
     });
     
     });
