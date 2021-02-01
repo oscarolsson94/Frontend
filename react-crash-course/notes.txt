@@ -14,8 +14,13 @@
 - We can also have "application level" state by using a "state manager"
   like Redux or Reacts own conext API.
 
+  State object:
+
   state = {
-    title: 'xxx'
-    body: 'xxx'
+    title: 'xxx',
+    body: 'xxx',
     isFeatured: true
   }
+
+- Download Node.js, we will need "npm" (Node package manager) to install 
+  dependencies.
