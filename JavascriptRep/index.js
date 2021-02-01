@@ -70,24 +70,45 @@
 
 // Objects---------------------------
 
-let example1 = {
-  firstName: "Dylan",
-  lastName: "Israel",
-  address: {
-    city: "Austin",
-    state: "Texas"
-  },
-  age: 30,
-  cats: ["Milo", "Tito", "Achieles"]
-};
+// let example1 = {
+//   firstName: "Dylan",
+//   lastName: "Israel",
+//   address: {
+//     city: "Austin",
+//     state: "Texas"
+//   },
+//   age: 30,
+//   cats: ["Milo", "Tito", "Achieles"]
+// };
 
-console.log(example1.firstName);
+// console.log(example1.firstName);
 
-console.log(example1.address.city);
+// console.log(example1.address.city);
 
-console.log(Object.keys(example1)); // print all keys on the same level
+// console.log(Object.keys(example1)); // print all keys on the same level
 
-console.log(Object.values(example1)); // print all values on the same level
+// console.log(Object.values(example1)); // print all values on the same level
 
-console.log(example1.hasOwnProperty("firstName")); // check if the object has a property
+// console.log(example1.hasOwnProperty("firstName")); // check if the object has a property
 
+// const user = {
+//   firstName: "Oscar",
+//   lastName: "Olsson",
+// };
+
+// user.address = {
+//   city: "Gothenburg",
+//   area: "Olskroken"
+// };
+
+// user.hobbies = ["coding", "games", "training", "gaming"];
+
+// user.isGoldMember = true;
+
+// console.log(user);
+
+// Equations--------------------------------
+
+let example1 = 10 % 4; // modulos, returns the remainder after division
+
+console.log(example1);
