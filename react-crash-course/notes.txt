@@ -24,3 +24,5 @@
 
 - Download Node.js, we will need "npm" (Node package manager) to install 
   dependencies.
+
+- Use "create react app" to generate a sample project.  
