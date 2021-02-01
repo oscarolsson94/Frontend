@@ -67,3 +67,27 @@
 // exampleArray.forEach((element) => {
 //   console.log(element);
 // });
+
+// Objects---------------------------
+
+let example1 = {
+  firstName: "Dylan",
+  lastName: "Israel",
+  address: {
+    city: "Austin",
+    state: "Texas"
+  },
+  age: 30,
+  cats: ["Milo", "Tito", "Achieles"]
+};
+
+console.log(example1.firstName);
+
+console.log(example1.address.city);
+
+console.log(Object.keys(example1)); // print all keys on the same level
+
+console.log(Object.values(example1)); // print all values on the same level
+
+console.log(example1.hasOwnProperty("firstName")); // check if the object has a property
+
