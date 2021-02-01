@@ -1,0 +1,6 @@
+React is a JavaScript library.
+
+Usually called a "framework".
+
+Used to build front-end apps.
+
