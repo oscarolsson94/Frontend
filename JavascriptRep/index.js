@@ -147,5 +147,30 @@
 //         console.log('Not a real answer.');
 // }
 
+// While and Do-While ------------------------------------
 
+// let count = 0;
+
+// while (true) {
+//     count++;
+    
+//     if(count >= 20) {
+//         break;
+//     }
+// }
+
+// console.log(count);
+
+// let count = 0;
+
+// do {
+//     count++;
+    
+//     if(count >= 20) {
+//         break;
+//     }
+// }
+// while (false)
+
+// console.log(count);
 
