@@ -109,13 +109,25 @@
 
 // Equations--------------------------------
 
-// let example1 = 10 % 4; // modulos, returns the remainder after division
+// let example1 = 10 % 4; // modulus, returns the remainder after division
 
 // console.log(example1);
 
-let example1 = 10;
-let example2 = "10";
+// let example1 = 10;
+// let example2 = "10";
 
-console.log(example1 == example2); //true
-console.log(example1 === example2); // false - takes type into the comparison
+// console.log(example1 == example2); //true
+// console.log(example1 === example2); // false - takes type into the comparison
+
+// const customerAnswer = Math.random() >= 0.5; // 50/50 odds
+
+// let quantity = 2;
+
+// if (customerAnswer) {
+//   quantity++;
+// }
+
+// console.log(quantity);
+
+
 
