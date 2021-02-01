@@ -270,3 +270,18 @@
 
 // Destructuring Arrays-------------------------------------
 
+// let [firstName, middleName, lastName] = ["Oscar", "Coding god", "Olsson"];
+
+// firstName = "Oskar"; // firstName stores the referense to index [0] in the array
+
+// console.log(`${firstName} ${middleName} ${lastName}`)
+
+// Object Literals------------------------------------------
+
+function addressMaker(city, state) {
+    const newAdress = {city, state};
+    
+    console.log(newAdress);
+}
+
+addressMaker('Austin', 'Texas');
