@@ -1,12 +1,5 @@
-let firstName = "Dylan";
+let dogAge = 10;
+dogAge++;
+let dogKind = "retriever";
 
-firstName = "Zack";
-
-let lastName = "Israel";
-let fullName = firstName + " " + lastName;
-
-let age = 32;
-let isEmployed = true;
-isEmployed = false;
-
-console.log(fullName);
+console.log("The dog is a " + dogKind + ", it is " + dogAge + " years old");
