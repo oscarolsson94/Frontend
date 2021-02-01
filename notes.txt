@@ -26,3 +26,6 @@
   dependencies.
 
 - Use "create react app" to generate a sample project.  
+  npx create-react-app // Use this command in current folder while in terminal.
+
+
