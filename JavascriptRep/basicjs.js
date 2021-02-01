@@ -218,3 +218,21 @@
 // console.log(userCredentials)
 // console.log(preTaxTotal);
 // console.log(finalTaxedTotal);
+
+
+// Template literals----------------------------------------
+
+let word1 = "Oscar";
+let word2 = "Olsson";
+let num1 = 2;
+let num2 = 3;
+
+const fullName = `${num1 + num2} ${word2}`;
+
+// let example = "Hello \n" + "world"; // Multi line strings
+let example = `${"Hello"} 
+${"World"}
+`;
+
+document.getElementById("example").innerText = example;
+// console.log(example);
