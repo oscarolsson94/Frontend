@@ -106,7 +106,7 @@
 //   console.log(`${student.name} lives in ${student.city}`);
 // }
 
-// Spread operator-------------------------------- (/)copying object, ned referense)
+// Spread operator-------------------------------- (copying object, ned referense)
 
 // let contacts = ["Mary", "Joel", "Danny"];
 
@@ -118,18 +118,28 @@
 
 // console.log(personalFriends);
 
-let person = {
-  name: "Adam",
-  age: 25,
-  city: "Manchester"
-}
+// let person = {
+//   name: "Adam",
+//   age: 25,
+//   city: "Manchester"
+// }
 
-let employee = {
-  ...person, // copying the values from person object
-  salary: "$3000",
-}
+// let employee = {
+//   ...person, // copying the values from person object
+//   salary: "$3000",
+// }
 
-console.log(employee);
+// console.log(employee);
+
+// const shoppingList = ["eggs", "milk", "butter"];
+
+
+// const shoppingBasket = [ ...shoppingList, "bread", "pasta"];
+
+// console.log(shoppingBasket);
+
+// Rest Operator----------------------------------------
+
 
 
 
