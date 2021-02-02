@@ -149,7 +149,7 @@
 
 // Arrow-functions-----------------------------------------
 
-//anonymous function
+//anonymous function - ONLY anonymous functions.
 // const lunchMenu = function(food) {
 //   return `I'm going to eat ${food} for lunch`;
 // }
