@@ -106,5 +106,30 @@
 //   console.log(`${student.name} lives in ${student.city}`);
 // }
 
+// Spread operator-------------------------------- (/)copying object, ned referense)
+
+// let contacts = ["Mary", "Joel", "Danny"];
+
+// let personalFriends = ["David",...contacts, "Lily"]; // Make a copy of the personalFriends array, independant copy, not pointing to the same object.
+
+// console.log(personalFriends);
+
+// contacts.push("John");
+
+// console.log(personalFriends);
+
+let person = {
+  name: "Adam",
+  age: 25,
+  city: "Manchester"
+}
+
+let employee = {
+  ...person, // copying the values from person object
+  salary: "$3000",
+}
+
+console.log(employee);
+
 
 
