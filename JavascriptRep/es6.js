@@ -56,10 +56,32 @@
 
 // Object Literals------------------------------------------
 
-function addressMaker(city, state) {
-    const newAdress = {city, state};
+// function addressMaker(city, state) {
+//     // const newAddress = {newCity: city, newState: state}; ->
+//     const newAdress = {city, state} // If parameter name as the same as attribute names
     
-    console.log(newAdress);
-}
+//     console.log(newAddress);
+// }
 
-addressMaker('Austin', 'Texas');
+// addressMaker('Austin', 'Texas');
+
+// Challenge
+
+// function addressMaker(address) {
+
+//   const { city, state } = address;
+  
+//     const newAddress = {
+//         city,
+//         state,
+//         country: 'United States'
+//     };
+    
+// }
+
+// addressMaker({city: 'Austin', state: 'Texas'});
+
+// For of loop------------------------------------
+
+
+
