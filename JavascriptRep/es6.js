@@ -156,5 +156,10 @@
 // // -->
 // const lunchMenu = food =>  `I'm going to eat ${food} for breakfast`;
 
-// Default parameters
+// Default parameters-----------------------------------------------
 
+// const leadSinger = (artist = "someone") => { //If no argument is send when calling the function. "someone" will be used.
+//     console.log(`${artist} is the lead singer of Cold Play`);
+// }
+
+// leadSinger();
