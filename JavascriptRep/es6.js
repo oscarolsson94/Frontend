@@ -140,6 +140,21 @@
 
 // Rest Operator----------------------------------------
 
+// function add(...nums) { 
+//   nums.push(2);
+//   console.log(nums);
+// }
 
+// add(4, 5, 6, 7, 12); // call the function with an array of all the inputs
 
+// Arrow-functions-----------------------------------------
+
+//anonymous function
+// const lunchMenu = function(food) {
+//   return `I'm going to eat ${food} for lunch`;
+// }
+// // -->
+// const lunchMenu = food =>  `I'm going to eat ${food} for breakfast`;
+
+// Default parameters
 
