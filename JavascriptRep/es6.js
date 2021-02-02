@@ -82,6 +82,19 @@
 // addressMaker({city: 'Austin', state: 'Texas'});
 
 // For of loop------------------------------------
+// let incomes = [62000, 67000, 75000];
+// let total = 0;
+
+// for (const income of incomes) { //singular of the array name
+//   total += income;
+//   console.log(income);
+// }
+
+// let fullName = "Oscar Coding God Israel";
+
+// for (const char of fullName) { //can be used on any iterable, even strings
+//   console.log(char);
+// }
 
 
 
