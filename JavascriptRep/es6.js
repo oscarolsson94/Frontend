@@ -184,3 +184,5 @@
 //     console.log("We can't make a chocolate cake because we are missing the ingredient chocolate" );
 // }
 
+// let and const -------------------------------------------------------
+
