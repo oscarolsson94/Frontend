@@ -322,7 +322,7 @@
 //   };
 // };
 
-// Promises
+// Promises --------------------------------------------------------------
 // example 1:
 // const buyFlightTicket = () => {
 //   return new Promise((resolve,reject) => {
@@ -364,3 +364,22 @@
 // userData
 //     .then((data) => console.log(data))
 //     .catch((error) => console.log(error));
+
+// Fetch -------------------------------------------------------------
+// * RESTFul API - https://jsonplaceholder.typicode.com/
+
+// fetch('https://jsonplaceholder.typicode.com/comments/1')
+//   .then(response => response.json()) //GET call
+//   .then(data => console.log(data)) //returns the data in the body
+    
+// fetch('https://jsonplaceholder.typicode.com/comments', { //Send an object with the post
+//   method: "POST", // POST call
+//   body: JSON.stringify({ //body is the json object
+//     postId: 1,
+//     name: "Oscar",
+//     email: "Oscar.olsson94@hotmail.com",
+//     body: "That was dope!"
+//   })
+//   })
+
+
