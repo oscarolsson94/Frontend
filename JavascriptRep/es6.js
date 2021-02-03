@@ -322,4 +322,45 @@
 //   };
 // };
 
+// Promises
+// example 1:
+// const buyFlightTicket = () => {
+//   return new Promise((resolve,reject) => {
+//     setTimeout(() => {
+//       const error = false; // if the function runs fine, the .then()-method will run
+//                           // if the function does not run fine (error=true), the .catch()-method will run
 
+//       if (error) {
+//         reject("Sorry your payment was not successful");
+//       }
+//       else {
+//         resolve("Thanks you, your payment was successful");
+//       }
+//     }, 3000)
+//   });
+// }
+
+// // buyFlightTicket().then().catch(); -->
+
+// buyFlightTicket()
+// .then( (success) => console.log(success))
+// .catch( (error) => console.log(error) );
+
+// example 2:
+// const userData = new Promise((resolve, reject) => {
+//     const error = false;
+    
+//     if(error) {
+//         reject('500 Level Error');
+//     } else {
+//         resolve({
+//             firstName: 'Dylan',
+//             age: 32,
+//             email: 'DylansEmail310@gmail.com'
+//         });
+//     }
+// });
+
+// userData
+//     .then((data) => console.log(data))
+//     .catch((error) => console.log(error));
