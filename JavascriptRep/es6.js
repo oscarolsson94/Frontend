@@ -237,35 +237,50 @@
 
 // Classes -------------------------------------------------------------
 
-export class Animal {
-  constructor(type, legs) {
-    this.type = type;
-    this.legs = legs;
-  }
+// export class Animal {
+//   constructor(type, legs) {
+//     this.type = type;
+//     this.legs = legs;
+//   }
 
-  makeNoise(sound = "Loud Noise") {
-    console.log(sound)
-  }
+//   makeNoise(sound = "Loud Noise") {
+//     console.log(sound)
+//   }
 
-  get metaData() {
-    return `Type: ${this.type}, Legs: ${this.legs}`;
-  }
+//   get metaData() {
+//     return `Type: ${this.type}, Legs: ${this.legs}`;
+//   }
 
-  static returnTen() {
-    return 10;
-  }
+//   static returnTen() {
+//     return 10;
+//   }
 
-}
+// }
 
-// another class
+// // another class
 
-// import { Animal } from "animal.js";
+// // import { Animal } from "animal.js";
 
 
-let cat = new Animal("cat", 4); // create an instance of the class Animal
+// let cat = new Animal("cat", 4); // create an instance of the class Animal
 
-cat.makeNoise("Meow"); // use a method-call on the instance 
-console.log(cat.metaData); 
+// cat.makeNoise("Meow"); // use a method-call on the instance 
+// console.log(cat.metaData); 
 
-console.log(Animal.returnTen()); // static function does not need an instance of the class to be used
+// console.log(Animal.returnTen()); // static function does not need an instance of the class to be used
+
+// export class Cat extends Animal { //Using the super-constructor while extending class Animal
+//     constructor(type, legs, tail) {
+//         super(type, legs);
+//         this.tail = tail;
+//   }
+  
+// makeNoise(sound = "meow") { //override a method in the child class
+//         console.log(sound);
+//     }
+
+// }
+
+// Trailing commas---------------------------------------------------------
+
 
