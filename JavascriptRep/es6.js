@@ -431,14 +431,14 @@
 
 // Sets in ES6+ ----------------------------------------------------------
 
-const exampleSet = new Set([1, 1, 1, 1, 2, 2, 2, 2]); // sets are iterable
+// const exampleSet = new Set([1, 1, 1, 1, 2, 2, 2, 2]); // sets are iterable
 
-exampleSet.add(5);
+// exampleSet.add(5);
 
-exampleSet.delete(5);
+// exampleSet.delete(5);
 
-console.log(exampleSet);
+// console.log(exampleSet);
 
-exampleSet.clear();
+// exampleSet.clear();
 
-console.log(exampleSet);
+// console.log(exampleSet);
