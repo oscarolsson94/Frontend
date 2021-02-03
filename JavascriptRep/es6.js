@@ -209,3 +209,15 @@
 
 // console.log(data);
 
+// export const add = (num1, num2) => {
+//   return num1 + num2;
+// }
+
+// // in another file:
+
+// import { add } from "es6.js";
+
+// let result = add(3, 2);
+// console.log(result);
+
+// padStart() and padEnd()----------------------------------------------
