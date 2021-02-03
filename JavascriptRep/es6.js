@@ -316,4 +316,10 @@
 
 // Trailing commas---------------------------------------------------------
 
+// function add(param1,) { // The commas after the last parameter/attribute does not matter anymore
+//   const example = {
+//     name: "Dylan",
+//   };
+// };
+
 
