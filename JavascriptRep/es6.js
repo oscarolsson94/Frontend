@@ -200,3 +200,12 @@
 // console.log(example);
 
 // Import and export ---------------------------------------------------
+
+// export const data = [1, 2, 3];
+
+// // in another file:
+
+// import { data } from "es6.js";
+
+// console.log(data);
+
