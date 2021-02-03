@@ -428,3 +428,17 @@
 // }
   
 // postToApi();
+
+// Sets in ES6+ ----------------------------------------------------------
+
+const exampleSet = new Set([1, 1, 1, 1, 2, 2, 2, 2]); // sets are iterable
+
+exampleSet.add(5);
+
+exampleSet.delete(5);
+
+console.log(exampleSet);
+
+exampleSet.clear();
+
+console.log(exampleSet);
