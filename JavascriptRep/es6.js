@@ -368,19 +368,19 @@
 // Fetch -------------------------------------------------------------
 // * RESTFul API - https://jsonplaceholder.typicode.com/
 
-// fetch('https://jsonplaceholder.typicode.com/comments/1')
+// fetch('https://jsonplaceholder.typicode.com/comments/1') // hard to read syntax, easier way below in this document!
 //   .then(response => response.json()) //GET call
 //   .then(data => console.log(data)) //returns the data in the body
     
-// fetch('https://jsonplaceholder.typicode.com/comments', { //Send an object with the post
-//   method: "POST", // POST call
-//   body: JSON.stringify({ //body is the json object
-//     postId: 1,
-//     name: "Oscar",
-//     email: "Oscar.olsson94@hotmail.com",
-//     body: "That was dope!"
-//   })
-//   })
+//  fetch('https://jsonplaceholder.typicode.com/comments', { //Send an object with the post
+//    method: "POST", // POST call
+//    body: JSON.stringify({ //body is the json object
+//      postId: 1,
+//      name: "Oscar",
+//      email: "Oscar.olsson94@hotmail.com",
+//      body: "That was dope!"
+//    })
+//    })
 
 // Async & Await ----------------------------------------------------
 
@@ -403,13 +403,28 @@
 
 // photoUpload();
 
-async function randomJoke() { // easy to understand API-fetching using await and async
+// async function randomJoke() { // easy to understand API-fetching using await and async
     
-  const response = await fetch(apiUrl); //await can only be used in async functions
-  const data = await response.json();
+//   const response = await fetch(apiUrl); //await can only be used in async functions
+//   const data = await response.json();
     
-  console.log(data.value); // print a random quote from chuck norris using the value attribute of the response body
-}
+//   console.log(data.value); // print a random quote from chuck norris using the value attribute of the response body
+// }
 
-const apiUrl = "https://api.chucknorris.io/jokes/random";
-randomJoke();
+// const apiUrl = "https://api.chucknorris.io/jokes/random";
+// randomJoke();
+
+// async function postToApi(){
+
+// const response = await fetch('https://jsonplaceholder.typicode.com/comments', { //Send an object with the post
+//    method: "POST", // POST call
+//    body: JSON.stringify({ //body is the json object
+//    postId: 1,
+//    name: "Oscar",
+//    email: "Oscar.olsson94@hotmail.com",
+//    body: "That was dope!"
+//    })
+// })
+// }
+  
+// postToApi();
