@@ -221,3 +221,12 @@
 // console.log(result);
 
 // padStart() and padEnd()----------------------------------------------
+
+let example = "Dylan"; //padStart(string length, "char to add") adds to the front, padEnd() adds to the end of the string
+
+console.log(example.padStart(10, "a")); // adds a's at the start of the string until it is 10 chars long
+
+example = "Dylan Israel";
+
+console.log(example.padEnd(10, 'a')); // does not add anything because the string is already more than 10 chars long
+
