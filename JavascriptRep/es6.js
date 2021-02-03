@@ -186,3 +186,17 @@
 
 // let and const -------------------------------------------------------
 
+// let uses block scope.
+// const is used when a value is expected to NOT be changed. 
+// const example = 5;
+// example = 4; // does not work with primitive types!!
+
+// console.log(example)
+
+// const example = [];
+// example.push(5); // You can add and remove numbers from a non-pimitive type const
+//                 // But you CANT re-assign the variable to another object type!
+
+// console.log(example);
+
+// Import and export ---------------------------------------------------
