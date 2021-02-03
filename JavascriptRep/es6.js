@@ -383,3 +383,33 @@
 //   })
 
 // Async & Await ----------------------------------------------------
+
+// const photos = [];
+
+// async function photoUpload() { // changes the normal behaviour, which is to run the program from top to bottom
+//   let uploadStatus = new Promise((resolve, reject) => {
+//     setTimeout(() => { // use setTimeout() to simulate it taking 3 seconds
+//       photos.push("Profile Picture");
+//       resolve("Photo");
+//     }, 3000)
+//   })
+
+//   let result = await uploadStatus; // the code will not move on before the Promise is resolved
+
+//   console.log(result);
+//   console.log(photos.length);
+
+// }
+
+// photoUpload();
+
+async function randomJoke() { // easy to understand API-fetching using await and async
+    
+  const response = await fetch(apiUrl); //await can only be used in async functions
+  const data = await response.json();
+    
+  console.log(data.value); // print a random quote from chuck norris using the value attribute of the response body
+}
+
+const apiUrl = "https://api.chucknorris.io/jokes/random";
+randomJoke();
