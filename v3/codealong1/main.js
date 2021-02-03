@@ -34,7 +34,7 @@ async function loadAlbums() {
   
   function renderAlbums(albums) {
     let $selectList = $('<select></select>');
-    albums.map(album => `
+    let options = albums.map(album => `
     <option value="${album.id}">${album.title}</option>
     `);
 
