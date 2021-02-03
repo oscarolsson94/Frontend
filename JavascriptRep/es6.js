@@ -236,3 +236,36 @@
 // console.log(example.padEnd(1)); // nothing happens, string is longer than 1 char
 
 // Classes -------------------------------------------------------------
+
+export class Animal {
+  constructor(type, legs) {
+    this.type = type;
+    this.legs = legs;
+  }
+
+  makeNoise(sound = "Loud Noise") {
+    console.log(sound)
+  }
+
+  get metaData() {
+    return `Type: ${this.type}, Legs: ${this.legs}`;
+  }
+
+  static returnTen() {
+    return 10;
+  }
+
+}
+
+// another class
+
+// import { Animal } from "animal.js";
+
+
+let cat = new Animal("cat", 4); // create an instance of the class Animal
+
+cat.makeNoise("Meow"); // use a method-call on the instance 
+console.log(cat.metaData); 
+
+console.log(Animal.returnTen()); // static function does not need an instance of the class to be used
+
