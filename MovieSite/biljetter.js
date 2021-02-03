@@ -2,8 +2,8 @@ $(document).ready(function() {
   
   $.getJSON('showings.json', function (json) {
     $('.choose').click(function() { 
-      var menuValue = document.getElementById("movies").value;
-      var arr;
+      let menuValue = document.getElementById("movies").value;
+      let arr;
   switch (menuValue) {
     case "afterWeCollided":
       arr = json.showings.afterWeCollided;
