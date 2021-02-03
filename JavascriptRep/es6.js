@@ -222,11 +222,17 @@
 
 // padStart() and padEnd()----------------------------------------------
 
-let example = "Dylan"; //padStart(string length, "char to add") adds to the front, padEnd() adds to the end of the string
+// let example = "Dylan"; //padStart(string length, "char to add") adds to the front, padEnd() adds to the end of the string
 
-console.log(example.padStart(10, "a")); // adds a's at the start of the string until it is 10 chars long
+// console.log(example.padStart(10, "a")); // adds a's at the start of the string until it is 10 chars long
 
-example = "Dylan Israel";
+// example = "Dylan Israel";
 
-console.log(example.padEnd(10, 'a')); // does not add anything because the string is already more than 10 chars long
+// console.log(example.padEnd(10, 'a')); // does not add anything because the string is already more than 10 chars long
 
+// let example = 'YouTube.com/CodingTutorials360';
+
+// console.log(example.padStart(100)); // pads the string with to the length of 100, with empty characters
+// console.log(example.padEnd(1)); // nothing happens, string is longer than 1 char
+
+// Classes -------------------------------------------------------------
