@@ -11,8 +11,17 @@ async function loadPhotos() {
 }
 
 function renderPhotos(photos) {
-  photos.forEach(photo => {
-    
+
+  let articles = photos.map(photo => `
+  <article>
+  <img src="${photo.thumbnailUrl}">
+  <h2>${photo.title}</h2>
+  </article>
+  `);
+
+  articles.forEach(article => {
+    $('main').append(article);
   });
+
 }
 
