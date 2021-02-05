@@ -8,5 +8,9 @@ export default class Person{
     return `Hi! My name is ${this.name}!`;
   }
 
+  toString() {
+    return JSON.stringify(this, null, '  ');
+  }
+
 
 }
