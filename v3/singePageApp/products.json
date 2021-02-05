@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Födelsedagstårta",
+    "price": 199,
+    "enoughFor": 6,
+    "description": "En härligt chokladig tårta med tre ljus!"
+  },
+  {
+    "name": "Hallontårta",
+    "price": 290,
+    "enoughFor": 12,
+    "description": "Grädde och hallon i en salig röra!"
+  },
+  {
+    "name": "Godistårta",
+    "price": 140,
+    "enoughFor": 4,
+    "description": "Istället för lördagsgods, olika smågodis strödda på en bädd av marsipan!"
+  }
+]

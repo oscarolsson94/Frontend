@@ -1,0 +1,53 @@
+/* Import Normalize - a library that removes differences in
+   built in styling between browsers */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+
+header, footer {
+  background-color: rgb(190, 229, 233);
+  padding: 10px 20px;
+  font-family: Verdana;
+}
+
+nav {
+  margin-left: -10px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  display: inline-block;
+  padding: 0 10px;
+}
+
+header nav a:hover {
+  color: #666;
+}
+
+header nav a.active {
+  color: rgb(59, 54, 170);
+}
+
+main {
+  width: 580px;
+  max-width: 80vw;
+  font-family: Georgia;
+  font-size: 15px;
+  margin: 30px auto;
+  line-height: 160%;
+}
+
+footer {
+  text-align: center;
+}
+
+/* Sticky footer fix */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
