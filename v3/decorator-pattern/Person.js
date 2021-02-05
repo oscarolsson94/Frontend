@@ -1,16 +1,9 @@
-export default class Person{
+import toStringDecorator from './toStringDecorator.js';
+
+export default toStringDecorator(class Person {
 
   constructor(name) {
     this.name = name;
   }
-  
-  sayHi() {
-    return `Hi! My name is ${this.name}!`;
-  }
 
-  toString() {
-    return JSON.stringify(this, null, '  ');
-  }
-
-
-}
+});

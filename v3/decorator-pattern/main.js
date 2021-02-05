@@ -1,5 +1,8 @@
 import Person from './Person.js';
+import Pet from './Pet.js';
 
-let persons = [new Person('Anna'), new Person('Bertil'), new Person('Cecilia')];
+let anna = new Person('Anna');
+let lassie = new Pet('Lassie', 'dog');
 
-console.log(`${persons[0]}`);
+console.log(`${anna}`);
+console.log(`${lassie}`);
