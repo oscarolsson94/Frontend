@@ -1,0 +1,25 @@
+Vad är en web server?
+- En dator kopplad till internet
+
+- Helst med ett fast IP-nummer
+
+- Med olika programvaror som låter den servera
+ webbsidor till folk som surfar till en viss url.
+
+- Normalt sett så har man registrerat ett domän
+  som pekar på det IP-nummer som webbservern har.
+
+- Vilka programvaror behövs på en dator som ska fungera som en webbserver?  
+Stack:                  
+-Operativsystem:        Linux     Windows       Linux
+-Webbserverprogramvara: Apache    IIS           Node.js/express
+-Backend(script)språk:  PHP       .NET/C#       JavaScript
+-Databas:               MySQL     TransactSQL   Mongo.db
+
+- Men: Att utveckla vad som ska köras på en webbserver kan man 
+  göra genom att bara ha stacken/programvaran, man behöver inte 
+  har ett domän eller fast IP-nummer för att börja utveckla,
+  eftersom man kan se vad webbserver serverar på localhost /
+  127.0.0.1 - den egna datorn under utveckling.
+
+  
