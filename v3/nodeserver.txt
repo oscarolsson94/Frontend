@@ -1,0 +1,25 @@
+// för att köra programmet i terminal : node "filnamn" ex: node index
+
+
+// installera ett paket: npm install packagename, ex npm install express
+
+// gör en .gitignore och skriv node_modules för att inte pusha den mappen till git
+
+// när man gjort ny pull eller cloneat projekt. kör "npm install" så laddas 
+// alla dependencies som behövs för projektet.
+
+
+// In Node.js we normally use require instead of import
+// Here we require the express module - a web server
+
+const express = require('express');
+
+// Create a new web server (based on express)
+
+const app = express();
+
+// Server all the files in the www folder (make new folder for all frontend material)
+app.use(express.static('www'));
+
+// Start the webserver on port 3000
+app.listen(3000, () => console.log('Listening on port 3000'));
