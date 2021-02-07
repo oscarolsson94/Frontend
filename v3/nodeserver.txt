@@ -3,6 +3,8 @@
 
 // installera ett paket: npm install packagename, ex npm install express
 
+// kör npm init -y för  att få package.json
+
 // gör en .gitignore och skriv node_modules för att inte pusha den mappen till git
 
 // när man gjort ny pull eller cloneat projekt. kör "npm install" så laddas 
