@@ -2,3 +2,7 @@
 * PostgreSQL - gratis
 * Oracle DB - betaltjänst
 * Microsoft TransactSQL / SQLServer (betal ibland...)
+
+
+
+* SQLite
