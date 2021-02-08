@@ -1,0 +1,71 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&family=New+Rocker&family=Pangolin&display=swap');
+
+/* Sticky footer fix */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+main {
+    flex: 1;
+}
+
+header, footer {
+  font-family: 'New Rocker';
+  font-size: 24px;
+  text-align: center;
+  background-color: #222;
+  color: #fff;
+  padding: 0 10px;
+}
+
+header {
+  background-image: url('guitar.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 40%;
+}
+
+.search-field-wrapper {
+  background-color: burlywood;
+  padding: 10px;
+  text-align: center;
+}
+
+.search-field-artist {
+  font-family: 'Pangolin';
+  font-size: 24px;
+  padding: 10px 20px;
+  width: 50vw;
+  text-align: center;
+  border: 0;
+  outline: none;
+  border-radius: 20px;
+}
+
+.search-results {
+  width: 600px;
+  max-width: 80vw;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+h2 {
+  font-family: 'Pangolin';
+}
+
+h2 i {
+  font-style: normal;
+  color: rgb(165, 33, 33);
+}
+
+h4 {
+  margin: 0;
+  font-family: 'Jomhuria';
+  font-weight: normal;
+  font-size: 34px;
+}
