@@ -19,7 +19,7 @@ function pageLayout() {
       <div class="search-results"></div>
     </main>
     <footer>
-      <p>© Ironboy 2021 &ndash; Using the chinook database</p>
+      <p>© Oscar Olsson 2021 &ndash; Using the chinook database</p>
     </footer>
   `);
 }
