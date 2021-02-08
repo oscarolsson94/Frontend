@@ -1,0 +1,4 @@
+* MySQL / MariaDB (väldigt lika dialekter) - gratis
+* PostgreSQL - gratis
+* Oracle DB - betaltjänst
+* Microsoft TransactSQL / SQLServer (betal ibland...)
