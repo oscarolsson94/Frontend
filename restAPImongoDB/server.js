@@ -9,5 +9,5 @@ const db = mongoose.connection;
 
 app.listen(PORT, () => console.log(`server started on port: ${PORT}`));
 
-db.on('error', (error) => console.error(error))
-db.once('open', () => console.log('connected to database'))
+db.on('error', (error) => console.error(error));
+db.once('open', () => console.log('connected to database'));
