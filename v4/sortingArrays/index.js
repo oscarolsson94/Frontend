@@ -48,7 +48,7 @@ persons.sort((a, b) => {
 
 
 // How to sort non-descructive?
-// insert splice() before sort!
+// insert slice() before sort!
 let unsorted = [4, 3, 1, 2];
 let sorted = unsorted.slice().sort();
 console.log(unsorted);
