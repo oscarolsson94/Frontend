@@ -1,0 +1,31 @@
+/* 
+  The Normalize library normalizes/soft-resets 
+  the built in CSS styling in browsers so that they look the same...
+  Highly recommended!  
+*/ 
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
+/*
+  Include chosen Google fonts
+*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=Permanent+Marker&display=swap');
+
+/*
+  Include the rest of our CSS
+*/
+@import './header.css';
+@import './header-nav.css';
+@import './footer.css';
+@import './main.css';
+@import './products.css';
+
+/* 
+  Box-sizing (include padding and borders in widths)
+*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+

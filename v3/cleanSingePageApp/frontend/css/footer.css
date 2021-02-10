@@ -1,0 +1,19 @@
+footer {
+  border-top: 1px solid rgb(169, 19, 29);
+  font-family: 'Lato';
+  font-weight: bold;
+  padding: 20px;
+  background-color: rgb(230, 230, 219);
+   background: linear-gradient(90deg, rgba(230,230,219,1) 0%, rgba(230,230,219,1) 60%, rgba(255,255,255,0) 100%);
+  text-align: center
+}
+
+/* Sticky footer - the footer at the bottom even on short pages */
+.app {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main {
+  flex: 1;
+}

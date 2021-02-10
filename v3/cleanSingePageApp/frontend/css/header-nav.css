@@ -1,0 +1,31 @@
+
+nav ul {
+  padding: 0;
+  /* 'clear-fix' - use when you have floats inside an element */
+  display: flow-root; 
+}
+
+nav li {
+  display: block;
+  float: left;
+}
+
+nav li a {
+  display: block;
+  padding: 5px 10px;
+  font-family: 'Lato';
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+nav li a:hover {
+  background-color: rgba(255, 255 , 255, 0.5);
+}
+
+nav li.active a {
+  background-color: rgb(43, 100, 199);
+  color: #fff;
+}

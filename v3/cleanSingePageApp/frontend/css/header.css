@@ -1,0 +1,33 @@
+header {
+  position: relative;
+  border-bottom: 1px solid rgb(169, 19, 29);
+  padding: 10px 20px;
+  background-color: rgb(230, 230, 219);
+  background: linear-gradient(-90deg, rgba(230,230,219,1) 0%, rgba(230,230,219,1) 60%, rgba(255,255,255,0) 100%);
+}
+
+header::after {
+  z-index: 1;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: url('/images/header-pic.jpg');
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: contain;
+}
+
+header div {
+  position: relative;
+  z-index: 2;
+}
+
+header h1 {
+  font-family: 'Permanent Marker';
+  margin: 0;
+  color: rgb(135, 19, 19);
+  font-size: 60px;
+}
