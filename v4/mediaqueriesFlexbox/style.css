@@ -111,3 +111,28 @@ footer{
   background-color:pink;
   margin-top:5vh;
 }
+
+@media screen and (max-width: 600px) {
+  .reviews{
+    flex-direction: column;
+  }
+  .reviews>section{
+    width: auto;
+    margin-bottom:2vh;
+  }
+
+  main{
+    padding:5vw;
+  }
+
+  article{
+    flex-direction: column;
+  }
+  article:nth-child(even){
+    flex-direction: column;
+  }
+  article > div:first-child > img{
+    width: 100%;
+  }
+
+}
