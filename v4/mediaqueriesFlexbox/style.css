@@ -1,0 +1,113 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin:0;
+}
+
+header{
+  background-image: url(images/header.webp);
+  background-size: cover;
+}
+
+.header-top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-top > div > img {
+  width: 20vw;
+}
+
+.header-top > nav > a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.header-bottom{
+  color: white;
+  text-align: center;
+  padding:5vh 0 10vh 0;
+}
+
+.header-top,
+.header-bottom{
+  background-color: rgba(0,0,0,0.5);
+}
+
+.header-bottom p{
+  margin-top:0;
+}
+
+.header-bottom button{
+  background-color: pink;
+  color: white;
+  font-weight: bold;
+  border:0;
+  border-radius:5px;
+  padding:5px 10px;
+}
+
+main {
+  padding: 0 12vw;
+}
+
+main > h2{
+  text-align: center;
+}
+
+.reviews{
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviews > section {
+  background-color: pink;
+  color: white;
+  width: 24vw;
+  padding: 0 2vw;
+}
+
+article{
+  display: flex;
+  margin-top: 10vh;
+}
+
+article > div:first-child > img{
+  width: 38vw;
+}
+
+article > div:last-child{
+  margin-left:2vw;
+}
+
+article:nth-child(even){
+  flex-direction: row-reverse;
+}
+
+article:nth-child(even) > div:last-child{
+  margin-right:2vw;
+  margin-left:0;
+}
+
+article h2,
+article h4,
+article p{
+  margin:0;
+}
+
+article h2{
+  font-size: 110%; /* % av basstorlek (16px) */
+}
+
+article p{
+  font-size:85%;
+}
+
+footer{
+  min-height:5vh;
+  background-color:pink;
+  margin-top:5vh;
+}
