@@ -1,0 +1,16 @@
+Gruppen sitter samlad. Vi liknar vårt projekt vid en båt som är på väg till en ö (vårt mål).
+
+Utan att prata med varandra, ska var och en besvara följande frågor. Skriv i 15 minuter (varken mer eller mindre).
+
+    1. Hur ser ön ut som vi är på väg mot?
+    2. Vad ger oss vind i seglen?
+    3. Vad har vi för ankare som saktar ner oss?
+    4. Vad finns det för klippor och skär som vi måste undvika?
+    5. Vad behöver vi (mer) ta med oss på båten?
+
+Därefter berättar ni vad nu har skrivit, var och en utan att avbryta varandra.
+
+Finns det något som har kommit upp på retrospektivet som ni kan lära er av inför nästa sprint?
+
+Skapa i så fall en åtgärd, som ni aktualiserar på varje standup.
+
