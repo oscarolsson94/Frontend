@@ -1,0 +1,78 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+  font-family: 'Open Sans';
+  font-size: 15px;
+  line-height: 160%;
+  margin: 30px;
+}
+
+.person {
+  padding: 3px 10px;
+}
+
+.person > span {
+  display: inline-block;
+  width: 150px;
+}
+
+
+/* 
+  Make the first span in a person div
+  less wide (the span with the first name)
+*/
+.person > span:nth-child(1){
+  width: 110px;
+}
+
+/* 
+  Make the third span in a person div
+  more wide (the span with the email)
+*/
+.person > span:nth-child(3){
+  width: 250px;
+}
+
+/*
+  Style the spans for different parts of an email
+*/
+.emailStart {
+  font-weight: bold;
+}
+.emailEnd {
+  color: #333;
+}
+
+/*
+  Make every other person/line
+  have a different background color
+*/
+.person:nth-child(even){
+  background-color: #ddd;
+}
+
+.person:nth-child(odd){
+  background-color: #eee;
+}
+
+/*
+ Divide persons/lines in groups of 10
+*/
+.person:nth-child(10n + 1){
+  margin-top: 30px;
+}
+
+/*
+  Make the e-mail address unselectable
+  (some elements you might want to make
+   unselectable - especially if they are
+   meant to be clicked so that the user
+   don't select the text when he/she just
+   mean to click it
+*/
+.person > span:nth-child(3){
+  user-select: none; 
+  -webkit-user-select: none; /*needed for Safari*/
+}
