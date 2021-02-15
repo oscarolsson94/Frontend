@@ -30,4 +30,25 @@ function greetAll(...personNames) { //can send in any number of arguments, and t
 
 greetAll('Anna', 'Britt', 'Cecil');
 
+
+// A function
+function hiFromPetOwner(name, dog, cat) {
+    console.log(`
+    Hi there!
+    I am ${name}!
+    I own the dog ${dog}
+    and the cat ${cat}!
+    `)
+}
+
+// Another function that wraps the previous one
+function hiAndByeFromPetOwner(goodbyGreeting, ...rest) {
+    hiFromPetOwner(...rest);
+    console.log(goodbyGreeting);
+}
+
+hiAndByeFromPetOwner('Byenow!', 'Daniella', 'Metta', 'Billie');
+
+
+
 //objects:--------------------------------------------------
